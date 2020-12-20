@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dice game</title>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	 <link rel="stylesheet" type="text/css" href="game.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<h1>DICE GAME</h1>
+<div class="main_container">
+       <button   class="button"  id="roll_button"  onclick="roll_function()">ROLL DICE</button>
+       <button  class="button"  id="hold_button"  onclick="hold_function()">HOLD</button>
+       <div id="score_cover">
+       <p id="roll_score">SCORE</p>
+       </div>
+	<div class="row">
+		<div class="col-md-6"  id="contain_1">
+			<h3 id="john">JOHN</h3>	
+			<div id="active_john"></div>
+			<div class="john_score">
+				<p id="john_score1"></p>
+			</div>
+			
+			<p class="score" id="score" type="number" name="score"  placeholder="CURRENT SCORE"><p>		
+			</div>
+		<div class="col-md-6"   id="contain_2">
+            <h3  id="mike">MIKE</h3>
+            <div id="active_mike"></div>
+            <div class="mike_score"><p id="mike_score1"></p></div>
+           
+            	<p class="score" id="score1" type="number" name="score"  placeholder="CURRENT SCORE"></p>
+	    </div>
+	</div>
+</div>
+
+<script src="game.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,167 @@
+.row{
+  
+ width: 756px;
+    height: 429px;
+    margin-left: 283px;
+    margin-top: 94px;
+    position: absolute;
+    box-shadow: 1px 1px 1px 8px white;
+    border: none;
+   border-radius: 5px;      
+}
+
+.main_container{
+    background-color: #fbd8d8;
+    width: 1350px;
+    height: 654px;
+    position: static;
+    background-image: linear-gradient(to right, #8888ff , #f75b6a);
+}
+#contain_1{
+    background-color:#e5ffb1; 
+    
+
+}
+#contain_2{
+    background-color:#d7fbff; 
+}
+h1{
+    font-style: italic;
+    color:white;
+    margin: auto;
+    margin-left: 567px;
+    opacity: 1;
+}
+body{
+    background-color: #000000a8;
+}
+#john{
+    margin-left: 124px;
+    margin-top: 5px;
+}
+#score {
+    margin-left: 72px;
+    margin-top: 195px;
+    padding-left: 18px;
+    height: 160px;
+    border: none;
+    border-radius: 32px;
+    text-align: center;
+    background-color: white;
+    width: 189px;
+    font-size: 95px;
+}
+#score1 {
+    margin-left: 87px;
+    margin-top: 195px;
+     padding-left: 18px;
+    height: 160px;
+    border: none;
+    border-radius: 32px;
+    text-align: center;
+     background-color: white;
+     width: 189px;
+     font-size: 95px;
+}
+.button{
+    position: absolute;
+    border:none;
+    border-radius:5px; 
+
+}
+#hold_button {
+    margin-left: 609px;
+    margin-top: 447px;
+    z-index: 200;
+    width: 105px;
+    height: 42px;
+    background-color: #ff7878;
+    color: white;
+}
+#roll_button{
+
+    margin-left: 609px;
+    margin-top: 392px;
+    z-index: 200;
+    width: 105px;
+    height: 42px;
+    background-color: #ff7878;
+    color: white;
+
+}
+.john_score {
+    width: 150px;
+    position: absolute;
+    height: 150px;
+    border: 1px solid black;
+    margin-left: 92px;
+    margin-top: 15px;
+   
+    background-color: white;
+    border:none;
+    border-radius: 5px;
+}
+.mike_score{
+    width: 150px;
+    position: absolute;
+    height: 150px;
+    border: 1px solid black;
+    margin-left: 103px;
+    margin-top: 15px;
+    
+    background-color: white;
+    border:none;
+    border-radius: 5px;
+}
+#mike{
+    margin-left: 143px;
+    margin-top: 5px;
+}
+div#score_cover {
+   border: 2px solid black;
+    position: absolute;
+    left: 584px;
+    top: 252px;
+    z-index: 100;
+    width: 150px;
+    height: 101px;
+    border-radius: 52px;
+    text-align: center;
+    background-color: #4c3f3f;
+}
+#roll_score {
+    position: relative;
+    top: 23px;
+    color: white;
+    font-size: 35px;
+}
+p#john_score1 {
+    font-size: 81px;
+    color: orangered;
+    margin-left: 20px;
+}
+p#mike_score1 {
+    font-size: 81px;
+    color: orangered;
+    margin-left: 20px;
+}
+#active_john{
+    position: absolute;
+    width: 17px;
+    height: 16px;
+    background-color: red;
+    top: 15px;
+    left: 300px;
+    border-radius: 19px;
+   
+}
+#active_mike{
+  position: absolute;
+    width: 17px;
+    height: 16px;
+    background-color: red;
+    top: 15px;
+    left: 330px;
+    border-radius: 19px;
+    display: none;
+}
